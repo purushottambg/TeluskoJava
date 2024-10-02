@@ -11,6 +11,6 @@ public class LargestNumber {
             System.out.print("Enter array member: ");
             arrayList.add(sc.nextInt());
         }
-        System.out.println(("Max number is: "+Collections.max(arrayList)));
+        System.out.println(("Max number is: "+Collections.max(arrayList)));  //This thing is new
     }
 }
