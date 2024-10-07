@@ -1,10 +1,10 @@
 public class Factorial {
     public static void main(String[] args) {
         int number = 5;
-        System.out.println("Factorial of " + number + " is: " + factorial(number));
+        System.out.println("Factorial of " + number + " is: " + factorial(number)); 
     }
 
-    public static int factorial(int n) {
+    public static int factorial(int n) {    //Defined function for the Factorial count
         if (n == 0) {
             return 1;
         } else {
