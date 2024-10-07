@@ -1,6 +1,6 @@
 public class Fibonacci {
     public static void main(String[] args) {
-        int n = 10, a = 0, b = 1;
+        int n = 10, a = 0, b = 1; //pre defined values for the variables
         System.out.println("Fibonacci Series up to " + n + ":");
 
         for (int i = 1; i <= n; ++i) {
